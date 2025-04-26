@@ -33,7 +33,7 @@ document.getElementById('quiz-form-2').addEventListener('submit', function(e) {
         return;
     }
 
-    if (selected.value == 'A') { // Jawaban A untuk soal ke-2
+    if (selected.value == 'B') { // Jawaban B untuk soal ke-2
         result.innerHTML = '<strong>Benar!</strong> Jawaban kamu tepat: 1/27.';
         result.className = 'correct';
     } else {
